@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80rem; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    color: white;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.brand-name {
+    font-weight: 700;
+    font-size: 1.5rem; 
+}
+
+
+.navbar-center {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem; 
+    padding: 0.5rem 1.5rem; 
+    border-radius: 9999px; 
+    font-size: 18px;
+    font-weight: 500; 
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transition-duration: 150ms; 
+}
+
+.nav-button:hover {
+    background-color: #0F2027; 
+}
+
+.button-icon {
+    background-color: black;
+    padding: 0.3rem; 
+    border-radius: 9999px; 
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
